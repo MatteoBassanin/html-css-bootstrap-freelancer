@@ -9,7 +9,18 @@
 .debug header{
     background-color: gray;
     height: 200px;
+}
 
+
+
+.debug .image{
+    background-color: black;
+    height: 100px;
+}
+
+.debug .option{
+    background-color: yellow;
+    height: 50px;
 }
 
 .debug .logo{
@@ -39,7 +50,7 @@
 }
 
 .debug .col-11{
-    background-color: lightsalmon;
+    background-color: rgb(81, 47, 33);
     height: 300px;
     border: 1px solid black;
 }
@@ -59,4 +70,15 @@
 .debug .button{
     background-color: blueviolet;
     height: 50px;
+}
+
+
+.debug .col-8{
+    background-color: darkorange;
+    height: 50px;
+}
+
+.debug .col-8 .ms_message{
+    background-color: darkorange;
+    height: 250px;
 }
