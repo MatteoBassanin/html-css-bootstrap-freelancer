@@ -9,21 +9,42 @@
 .debug header{
     background-color: gray;
     height: 200px;
+
 }
 
 .debug .logo{
-    background-color: blue;
-    height: 100px;
-    
+    background-color: blue;   
+    height: 50px;
 }
 
 .debug nav{
-    background-color: red;
-    height: 100px;
-    
+    background-color: red;   
+    height: 50px;
 }
 
 .debug .container-lg{
     background-color: lightseagreen;
-    height: 100px;      
+    height: 150px;      
+}
+
+.debug #portfolio{
+    background-color: palevioletred;
+}
+
+.debug .col-12{
+    background-color: lightsalmon;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.debug .col-11{
+    background-color: lightsalmon;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+.debug .ms_title{
+    background-color: aquamarine;
+    height: 50px;
 }
