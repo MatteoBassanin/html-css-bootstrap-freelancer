@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+
+.debug header{
+    background-color: gray;
+    height: 200px;
+}
+
+.debug .logo{
+    background-color: blue;
+    height: 100px;
+    
+}
+
+.debug nav{
+    background-color: red;
+    height: 100px;
+    
+}
+
+.debug .container-lg{
+    background-color: lightseagreen;
+    height: 100px;      
+}
