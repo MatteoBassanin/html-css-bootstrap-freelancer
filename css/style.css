@@ -24,11 +24,12 @@
 
 .debug .container-lg{
     background-color: lightseagreen;
-    height: 150px;      
+       
 }
 
 .debug #portfolio{
     background-color: palevioletred;
+    
 }
 
 .debug .col-12{
@@ -46,5 +47,16 @@
 
 .debug .ms_title{
     background-color: aquamarine;
+    height: 50px;
+}
+
+.debug .ms_text_about{
+    background-color: brown;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.debug .button{
+    background-color: blueviolet;
     height: 50px;
 }
