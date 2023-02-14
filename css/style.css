@@ -14,7 +14,7 @@ main{
     padding-top: 70px;
 }
 
-#start_bootstrap{
+#start_bootstrap,#about{
     background-color: #19B391;
 }
 
@@ -36,37 +36,31 @@ main{
     height: 50px;
 }
 
-.debug nav{
+/* .debug nav{
     background-color: red;   
     height: 50px;
-}
-
-.debug .container-lg{
-    background-color: lightseagreen;
-       
-}
+} */
 
 
-
-.debug #portfolio{
+/* .debug #portfolio{
     background-color: palevioletred;
     
-}
+} */
 
 
 
-.debug .ms_square{
+/* .debug .ms_square{
    height: 200px;
    border: 1px solid black;
    background-color: rgb(100, 40, 17);
   
-}
+} */
 
 
-.debug .ms_title{
+/* .debug .ms_title{
     background-color: aquamarine;
     height: 50px;
-}
+} */
 
 .debug .ms_text_about{
     background-color: brown;
@@ -95,9 +89,6 @@ main{
     background-color: yellowgreen;
 }
 
-#about{
-    background-color: blueviolet;
-}
 
 
 #contact_me{
