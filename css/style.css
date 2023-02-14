@@ -62,11 +62,11 @@ main{
     height: 50px;
 } */
 
-.debug .ms_text_about{
+/* .debug .ms_text_about{
     background-color: brown;
     height: 200px;
     border: 1px solid black;
-}
+} */
 
 .debug .button{
     background-color: blueviolet;
