@@ -15,9 +15,13 @@ main{
 }
 
 #start_bootstrap,#about{
-    background-color: #19B391;
+    background-color: var(--ms_backgroundgreen);
 }
 
+
+:root{
+    --ms_backgroundgreen: #19B391;
+}
 
 /* .debug .image{
     background-color: black;
