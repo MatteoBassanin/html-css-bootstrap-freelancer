@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
@@ -65,9 +66,9 @@
             <div class="container">
                 <div class="row g3">
 
-                    <div class="col-12 col-md-6 col-lg-4 my-5 ms_color_bg">
+                    <div class="col-12 col-md-6 col-lg-4 my-5 ms_color_bg ">
                         <div class="ms_square ">
-                            <img class="img-fluid" src="img/cabin.png" alt="cabin"/>
+                            <img class="img-fluid" class="rounded-3" src="img/cabin.png" alt="cabin"/>
                         </div>
                     </div>
 
@@ -113,7 +114,15 @@
         <section id="about" class="text-white text-center py-5">
 
             <div class="container px-5">
-                <h2>ABOUT</h2>
+                <h2>ABOUT</h2>                  
+                <div class="d-flex justify-content-between">
+                    <!-- <hr class="w-25 fs-1">
+                    <i class="fa-solid fa-minus fs-2"></i> -->
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-solid fa-minus"></i>
+                    <hr class="w-25"> -->
+                </div>
+
                 <div class="row justify-content-center text-start">
                     <div class="col-12 col-md-6 ms_text_about">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur soluta eius, vel ut aut expedita, debitis tempora voluptate vero labore provident, facilis cumque ratione incidunt molestiae quia nam quaerat.</p>
@@ -121,8 +130,9 @@
                     <div class="col-12 col-md-6 ms_text_about">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut cumque deserunt accusantium! Laudantium eos ab impedit porro sunt facere fugit reprehenderit pariatur omnis placeat voluptates exercitationem asperiores, molestiae odit.</p>
                     </div>
-                    <div class="col-6">
-                        <div class="border border-white w-25 m-auto text-center"> <a class="text-decoration-none text-white" href="#">Download</a> </div>
+                    <div class="col-12 text-center">
+                        <!-- <div class="border border-white w-25 m-auto text-center"> <a class="text-decoration-none text-white" href="#">Download</a> </div> -->
+                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i>Download</button>
                     </div>
                     
 
@@ -142,22 +152,18 @@
                    
                     <form>
                         <div class="mb-3">
-                          <label for="name_form" class="form-label"></label>
-                          <input type="text" class="form-control border-top-0 border-end-0 border-start-0" id="name_form" placeholder="Name">
+                          <input type="text" class="form-control border-top-0 border-end-0 border-start-0 border-secondary-subtle" id="name_form" placeholder="Name">
                         </div>
                   
                         <div class="mb-3">
-                          <label for="input_Email" class="form-label"></label>
                           <input type="email" class="form-control border-top-0 border-end-0 border-start-0" id="input_email" placeholder="Email Address">
                           
                         </div>
                         <div class="mb-3">
-                          <label for="phone_number" class="form-label"></label>
                           <input type="text" class="form-control border-top-0 border-end-0 border-start-0" id="phone_number" placeholder="Phone Number">
                         </div>
                         
                         <div class="mb-3">
-                          <label for="input_message" class="form-label" placeholder="Message"></label>
                           <input type="textarea" class="form-control border-top-0 border-end-0 border-start-0" id="input_message" placeholder="Message" style="height: 200px">
                         </div>
                   
@@ -167,62 +173,33 @@
 
         </section>
 
-        <section id="location">
-            <div class="container">
-                <!-- <div class="row justify-content-center">
-                    <div class="row col-md-4 justify-content-center">
-                        <h2 class="col-4 text-center">LOCATION</h2>                          
-                        <div class="row justify-content-center">
-                            <p class="col-8 text-center"> 2215 John Daniel Drive Clark , MO 54243</p>
-                        </div>   
-                    </div>
-                    <div class="row col-md-4 justify-content-center">
-                        <h2 class="col-4 text-center"> AROUND THE WEB</h2>
-                        <div class="row justify-content-center">
-                            <div class="col-1 logo"></div>
-                            <div class="col-1 logo"></div>
-                            <div class="col-1 logo"></div>
-                            <div class="col-1 logo"></div>
-                        </div>
-                    </div>
-                    <div class="row col-md-4 justify-content-center">
-                        <h2 class="col-4 text-center">ABOUT FREELANCER</h2>
-                        <p class="col-10 text-center">Freelancr is free to use,oper source Bootstrap theme created by Start Bootstrap.</p>    
-                    </div>                                      
-                </div> -->
-
-
-                
-            </div>
-
-        </section>
+     
     </main>
 
 
-    <footer>
+    <footer class="text-white">
         <div class="container footer_top">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 text-center">
 
                     <h3>LOCATION</h3>
-                    <div class="col-12 col-md-4 text-center"> 2215 John Daniel Drive Clark , MO 54243</div>
+                    <div> 2215 John Daniel Drive Clark , MO 54243</div>
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 text-center">
                     <h3> AROUND THE WEB</h3>
                     <div class="d-flex justify-content-center">
-                        <div class="col-1 logo"></div>
-                        <div class="col-1 logo"></div>
-                        <div class="col-1 logo"></div>
-                        <div class="col-1 logo"></div>
+                        <div class="col-1 logo"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="col-1 logo"><i class="fa-brands fa-google-plus"></i></div>
+                        <div class="col-1 logo rounded-3"><i class="fa-brands fa-square-twitter "></i></div>
+                        <div class="col-1 logo"><i class="fa-brands fa-linkedin"></i></div>
                     </div>
 
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 text-center">
                     <h3>ABOUT FREELANCER</h3>
-                    <div class="col-12 col-md-4  text-center">Freelancr is free to use,oper source Bootstrap theme created by Start Bootstrap.</div>
-
+                    <div >Freelancr is free to use,oper source Bootstrap theme created by <a href="#" class="text-decoration-none">Start Bootstrap</a> .</div>
                 </div>
             </div>
 
@@ -232,7 +209,7 @@
 
 
 
-        <div class="container-lg">
+        <div class="container footer_bot w-100">
             <div class="row justify-content-center">
                 <div class="col-6 text-center">Copyright your Website 2019</div>
 
