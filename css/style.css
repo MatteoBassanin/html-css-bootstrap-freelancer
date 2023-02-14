@@ -6,6 +6,11 @@
 
 header{
     height: 70px;
+    background-color: #334A62;
+}
+
+.ms_topbar{
+    background-color: #334A62;
 }
 
 main{
@@ -34,4 +39,29 @@ hr{
 
 .ms_green{
     background-color: var(--ms_backgroundgreen);
+}
+
+.ms_border_radius_circle{
+    border-radius: 50%;
+}
+
+.ms_square:hover img{
+    opacity: 0.5;
+}
+
+.ms_square:hover i.plus{
+    display: block;
+}
+
+.plus {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 9999;
+}
+
+.ms_relative{
+    position: relative;
 }
